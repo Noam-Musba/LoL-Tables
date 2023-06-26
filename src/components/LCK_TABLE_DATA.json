@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "standing": 1,
+    "team": "Gen.G",
+    "#games": 5,
+    "wins": 5,
+    "losses": 0,
+    "points": 8,
+    "minigames_won": 10,
+    "minigames_lost": 2,
+    "streak": 5
+  },
+  {
+    "id": 2,
+    "standing": 2,
+    "team": "T1",
+    "#games": 5,
+    "wins": 4,
+    "losses": 1,
+    "points": 6,
+    "minigames_won": 9,
+    "minigames_lost": 3,
+    "streak": 3
+  },
+  {
+    "id": 3,
+    "standing": 4,
+    "team": "Dplus Kia",
+    "#games": 5,
+    "wins": 3,
+    "losses": 2,
+    "points": 2,
+    "minigames_won": 7,
+    "minigames_lost": 5,
+    "streak": -1
+  },
+  {
+    "id": 4,
+    "standing": 3,
+    "team": "kt Rolster",
+    "#games": 5,
+    "wins": 4,
+    "losses": 1,
+    "points": 6,
+    "minigames_won": 9,
+    "minigames_lost": 3,
+    "streak": 3
+  },
+  {
+    "id": 5,
+    "standing": 5,
+    "team": "Hanwha Life Esports",
+    "#games": 4,
+    "wins": 2,
+    "losses": 2,
+    "points": 2,
+    "minigames_won": 6,
+    "minigames_lost": 4,
+    "streak": 2
+  },
+  {
+    "id": 6,
+    "standing": 6,
+    "team": "Kwangdong Freecs",
+    "#games": 6,
+    "wins": 3,
+    "losses": 3,
+    "points": 0,
+    "minigames_won": 6,
+    "minigames_lost": 6,
+    "streak": 1
+  },
+  {
+    "id": 7,
+    "standing": 7,
+    "team": "Liiv SANDBOX",
+    "#games": 5,
+    "wins": 2,
+    "losses": 3,
+    "points": -3,
+    "minigames_won": 4,
+    "minigames_lost": 7,
+    "streak": 1
+  },
+  {
+    "id": 8,
+    "standing": 8,
+    "team": "NongShim REDFORCE",
+    "#games": 5,
+    "wins": 1,
+    "losses": 4,
+    "points": -7,
+    "minigames_won": 2,
+    "minigames_lost": 9,
+    "streak": -4
+  },
+  {
+    "id": 9,
+    "standing": 9,
+    "team": "OKSavingsBank BRION",
+    "#games": 5,
+    "wins": 1,
+    "losses": 4,
+    "points": -5,
+    "minigames_won": 4,
+    "minigames_lost": 9,
+    "streak": -2
+  },
+  {
+    "id": 10,
+    "standing": 10,
+    "team": "DRX",
+    "#games": 5,
+    "wins": 0,
+    "losses": 5,
+    "points": -9,
+    "minigames_won": 1,
+    "minigames_lost": 10,
+    "streak": -5
+  }
+]
