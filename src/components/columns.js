@@ -1,3 +1,42 @@
+const handleTeamClicked = (value) => {
+  let url = "https://lolesports.com/teams/";
+  switch (value) {
+    case "Gen.G":
+      url += "geng";
+      break;
+    case "T1":
+      url += "t1";
+      break;
+    case "Dplus Kia":
+      url += "dwg-kia";
+      break;
+    case "kt Rolster":
+      url += "kt-rolster";
+      break;
+    case "Hanwha Life Esports":
+      url += "hanwha-life-esports";
+      break;
+    case "Kwangdong Freecs":
+      url += "kwangdong-freecs";
+      break;
+    case "Liiv SANDBOX":
+      url += "liiv-sandbox";
+      break;
+    case "NongShim REDFORCE":
+      url += "nongshim-redforce";
+      break;
+    case "OKSavingsBank BRION":
+      url += "fredit-brion";
+      break;
+    case "DRX":
+      url += "drx";
+      break;
+    default:
+      break;
+  }
+  window.open(url, "_blank");
+};
+
 const numericSort = (rowA, rowB, columnId) => {
   const valueA = rowA.original[columnId];
   const valueB = rowB.original[columnId];
@@ -10,7 +49,7 @@ const streakInCell = (value) => {
   ret += Math.abs(value);
   ret += value > 0 ? "W" : "L";
   return ret;
-}
+};
 
 export const COLUMNS = [
   {
@@ -20,6 +59,14 @@ export const COLUMNS = [
   {
     Header: "Team",
     accessor: "team",
+    Cell: ({ value }) => (
+      <span
+        style={{ cursor: "pointer", color: "blue" }}
+        onClick={() => handleTeamClicked(value)}
+      >
+        {value}
+      </span>
+    ),
   },
   {
     Header: "Number of Games",
@@ -50,6 +97,6 @@ export const COLUMNS = [
     Header: "Streak",
     accessor: "streak",
     sortType: (rowA, rowB, columnId) => numericSort(rowA, rowB, columnId),
-    Cell: ({value}) => streakInCell(value),
+    Cell: ({ value }) => streakInCell(value),
   },
 ];
